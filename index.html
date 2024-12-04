@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Create Account</h2>
+    <p>Get started with your free account</p>
+    
+    <button class="twitter-btn"><i class="fab fa-twitter"></i> Login via Twitter</button>
+    <button class="facebook-btn"><i class="fab fa-facebook-f"></i> Login via Facebook</button>
+
+    <div class="divider">OR</div>
+
+    <!-- Full Name -->
+    <div class="input-group">
+        <i class="fas fa-user"></i>
+        <input type="text" placeholder="Full name">
+    </div>
+
+    <!-- Email Address -->
+    <div class="input-group">
+        <i class="fas fa-envelope"></i>
+        <input type="email" placeholder="Email address">
+    </div>
+
+    <!-- Phone Number -->
+    <div class="input-group phone-input">
+        <i class="fas fa-phone"></i>
+        <select aria-label="Country code">
+            <option value="+84">+84</option>
+            <option value="+1">+1</option>
+        </select>
+        <input type="tel" placeholder="Phone number">
+    </div>
+
+    <!-- Job Type -->
+    <div class="input-group">
+        <i class="fas fa-briefcase"></i>
+        <select>
+            <option>Select job type</option>
+            <option>Developer</option>
+            <option>Designer</option>
+            <option>Manager</option>
+        </select>
+    </div>
+
+    <!-- Password -->
+    <div class="input-group">
+        <i class="fas fa-lock"></i>
+        <input type="password" placeholder="Create password">
+    </div>
+
+    <!-- Confirm Password -->
+    <div class="input-group">
+        <i class="fas fa-lock"></i>
+        <input type="password" placeholder="Repeat password">
+    </div>
+    
+    <button class="submit-btn">Create Account</button>
+
+    <p>Have an account? <a href="#" class="login-link">Log In</a></p>
+</div>
+
+</body>
+</html>
